@@ -14,7 +14,7 @@
 
 / {
 	compatible = "amlogic,g12a";
-	model = "ZTE B860H V5";
+	model = "B860Hv5 ✧ s905x2";
 
 	aliases {
 		serial0 = &uart_AO;

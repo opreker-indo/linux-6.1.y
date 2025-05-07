@@ -11,7 +11,12 @@
 
 / {
 	compatible = "amlogic,g12a";
-	model = "HG680 FJ";
+	model = "HG680-FJ ✧ s905x2";
+	
+	aliases {
+		serial0 = &uart_AO;
+		ethernet0 = &ethmac;
+	};
 
 	vddgpu: regulator-vddgpu {
 		compatible = "regulator-fixed";
